@@ -1,5 +1,5 @@
 with
-    fonte_clientes as (
+    renomeado as (
         select
             cast(ID as varchar) as pk_cliente
             , cast(COMPANYNAME as varchar) as nome_empresa_cliente
@@ -10,4 +10,4 @@ with
     )
 
 select *
-from fonte_clientes
+from renomeado
