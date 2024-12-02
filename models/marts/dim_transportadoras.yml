@@ -1,0 +1,12 @@
+models:
+  - name: dim_transportadoras
+    description: Dimensão de transportadoras do sistema PDV da Northwind.
+    columns:
+      - name: PK_TRANSPORTADORA
+        description: PARA PREENCHER.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: NOME_TRANSPORTADORA
+        description: PARA PREENCHER.

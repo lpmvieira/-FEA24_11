@@ -1,0 +1,27 @@
+models:
+  - name: dim_clientes
+    description: Dimensão de clientes do sistema PDV da Northwind.
+    columns:
+      - name: PK_CLIENTE
+        description: PARA PREENCHER.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: NOME_EMPRESA_CLIENTE
+        description: PARA PREENCHER.
+
+      - name: CIDADE_CLIENTE
+        description: PARA PREENCHER.
+
+      - name: REGIAO_CLIENTE
+        description: PARA PREENCHER.
+
+      - name: PAIS_CLIENTE
+        description: PARA PREENCHER.
+
+
+
+
+
+
