@@ -1,0 +1,33 @@
+models:
+  - name: int_vendas__self_join_funcionarios
+    description: PARA PREENCHER.
+    columns:
+      - name: PK_FUNCIONARIO
+        description: PARA PREENCHER.
+        data_tests:
+          - unique
+          - not_null
+
+      - name: NOME_FUNCIONARIO
+        description: PARA PREENCHER.
+
+      - name: CARGO_FUNCIONARIO
+        description: PARA PREENCHER.
+
+      - name: NOME_GERENTE
+        description: PARA PREENCHER.
+
+      - name: DT_NASCIMENTO_FUNCIONARIO
+        description: PARA PREENCHER.
+
+      - name: DT_CONTRATACAO
+        description: PARA PREENCHER.
+
+      - name: CIDADE_FUNCIONARIO
+        description: PARA PREENCHER.
+
+      - name: REGIAO_FUNCIONARIO
+        description: PARA PREENCHER.
+
+      - name: PAIS_FUNCIONARIO
+        description: PARA PREENCHER.
