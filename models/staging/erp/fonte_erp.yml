@@ -18,3 +18,9 @@ sources:
       - name: customers
 
       - name: shippers
+
+      - name: employees
+
+      - name: orders
+
+      - name: order_details
